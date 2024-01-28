@@ -1,0 +1,132 @@
+body {
+    background-color: #000002;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #f5f5f5;
+}
+
+.welcome .img {
+    height: 50vh;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5%;
+    background-image: url("https://multitheftauto.com/landing/images/gen2/head20th.webp");
+    background-size: cover;
+    background-position: center;
+}
+
+.welcome h1 {
+    letter-spacing: 1.2px;
+    text-align: center;
+}
+
+.normal {
+    margin-top: 5%;
+}
+
+.normal #title {
+    margin-left: 15%;
+    letter-spacing: 1.3px;
+    font-family: 'Kanit', sans-serif;
+    padding: 5px;
+}
+
+.populars {
+    margin-top: 5%;
+}
+
+.populars #title {
+    margin-left: 15%;
+    letter-spacing: 1.3px;
+    font-family: 'Kanit', sans-serif;
+    padding: 5px;
+}
+
+.errors {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.errordiv {
+    width: 30%; /* Değişiklik burada */
+    margin: 0 2.5%;
+    margin-top: 2%;
+    padding: 10px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    height: 100px;
+    border-radius: 5px;
+    background-image: url("imgs/bg.png");
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 0px 15px #3a3a3a;
+}
+
+.error h1 {
+    color: rgb(221, 221, 221);
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.errordiv .button {
+    margin-top: 10px;
+}
+
+.button a {
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 2px solid #f13356;
+    text-decoration: none;
+    transition: all 0.075s ease-in;
+    font-weight: bold;
+}
+
+.button a:hover {
+    background-color: #f13356;
+    box-shadow: 0px 0px 10px #f13356;
+}
+
+#errortitle{
+    margin-left: 5%;
+    padding-top: 5%;
+}
+
+.reasonandphoto{
+    margin-left: 5%;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+
+.reasonandphoto h2{
+    font-size: 18px;
+    padding-right: 5px;
+    font-weight: 300;
+}
+
+.reasonandphoto p{
+    color: rgb(216, 216, 216);
+}
+
+.reasonandphoto img{
+    object-fit: cover;
+    height: 200px;
+    padding-left: 20px;
+}
+
+
+@media (max-width: 768px) {
+    .errordiv {
+        width: 100%; /* Make it full width on smaller screens */
+        margin: 0; /* Remove margin on smaller screens */
+    }
+}
