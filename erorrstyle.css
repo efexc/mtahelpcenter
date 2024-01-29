@@ -9,7 +9,6 @@ body {
     color: rgb(207, 207, 207);
 }
 
-
 a{
     text-decoration: none;
     color: #52AEF4;
@@ -59,6 +58,7 @@ a:hover{
     color: white;
     border-radius: 10px;
     background-color: #607ada;
+    box-shadow: 0px 0px 10px #607ada;
     text-align: center;
     transition: all 0.1s ease-in;
 }
@@ -175,8 +175,8 @@ a:hover{
     }
 
     .leftbar{
-        width: 90%;
-        margin-left: 5%;
+        width: 85%;
+        margin-left: 2.5%;
         height: fit-content;
         background-color: #1C1E28;
         box-shadow: 0px 0px 10px #1C1E28;
@@ -184,9 +184,9 @@ a:hover{
     }
 
     .mainbar{
-        width: 90%;
+        width: 85%;
+        margin-left: 2.5%;
         margin-top: 5%;
-        margin-left: 5%;
         background-color: #1C1E28;
         padding: 15px;
         box-shadow: 0px 0px 10px #1C1E28;
