@@ -28,6 +28,15 @@ a:hover{
     font-family: 'Kanit', sans-serif;
 }
 
+.main .leftbar{
+    border: 2px solid #9B4D14;
+    box-shadow: 0px 0px 8px #9B4D14;
+}
+
+.main .mainbar{
+    border: 2px solid #9B4D14;
+    box-shadow: 0px 0px 8px #9B4D14;
+}
 
 .main .leftbar p{
     color: rgb(207, 207, 207);
