@@ -1,28 +1,97 @@
 body {
-    background-color: #000002;
+    background-color: #121319;
 }
 
 * {
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
-    color: #f5f5f5;
+    color: rgb(207, 207, 207);
 }
 
-.welcome .img {
-    height: 50vh;
-    width: 80%;
-    margin-left: 10%;
-    margin-top: 5%;
-    background-image: url("https://multitheftauto.com/landing/images/gen2/head20th.webp");
-    background-size: cover;
-    background-position: center;
-}
+    .header{
+    width: 100%;
+    height: 12.5vh;
+    background-color: #1C1E28;
+    position: relative;
+    } 
 
-.welcome h1 {
-    letter-spacing: 1.2px;
-    text-align: center;
-}
+    .header h1{
+        position: absolute;
+        bottom: 0;
+        left: 20px;
+        font-weight: bold;
+        font-size: 40px;
+    }
+
+    .header h1 span{
+        font-weight: 500;
+        font-size: 25px;
+    }
+
+    .footer{
+        width: 100%;
+        height: 10vh;
+        margin-top: 30px;
+        background-color: #1C1E28;
+    }
+    
+    .footer ul{
+        padding-top: 40px;
+        padding-bottom: 40px;
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        align-items: center;
+        background-color:#1C1E28;
+    }
+    
+    .footer ul li{
+        margin-left: 15px;
+    }
+
+    .ShareLink_facebook{
+        padding: 5px 10px;
+        background-color: rgb(56, 56, 255);
+        border-radius: 50%;
+    }
+    
+    .ShareLink_twitter{
+        padding: 5px 7.5px;
+        background-color: rgb(0, 0, 0);
+        border-radius: 50%;
+    }
+    
+    .ShareLink_github{
+        padding: 5px 7.5px;
+        background-color: rgb(66, 66, 66);
+        border-radius: 50%;
+    }
+    
+    .ShareLink_youtube{
+        padding: 5px 7.5px;
+        background-color: red;
+        border-radius: 50%;
+    }
+    
+    .ShareLink_linkedin{
+        padding: 5px 7.5px;
+        background-color: rgb(41, 41, 255);
+        border-radius: 50%;
+    }
+    
+    .ShareLink_twitch{
+        padding: 5px 5px;
+        background-color: rgb(156, 8, 255);
+        border-radius: 50%;
+    }
+    
+    .ShareLink_reddit{
+        padding: 5px 5px;
+        background-color: rgb(255, 141, 48);
+        border-radius: 50%;
+        margin-right: 10px; /* veya başka bir değer deneyin */
+    }
 
 .normal {
     margin-top: 5%;
@@ -63,10 +132,10 @@ body {
     flex-direction: column;
     height: 100px;
     border-radius: 5px;
-    background-image: url("imgs/bg.png");
+    background-color: #1C1E28;
     background-size: cover;
     background-position: center;
-    box-shadow: 0px 0px 15px #3a3a3a;
+    box-shadow: 0px 0px 15px #9B4D14;
 }
 
 .errordivpopular {
@@ -80,7 +149,7 @@ body {
     flex-direction: column;
     height: 100px;
     border-radius: 5px;
-    background-image: url("imgs/bg.png");
+    background-color: #292c3b;
     background-size: cover;
     background-position: center;
     box-shadow: 0px 0px 15px #a19100;
@@ -101,7 +170,7 @@ body {
     padding: 5px 10px;
     border-radius: 5px;
     background-color: transparent;
-    border: 2px solid #f13356;
+    border: 2px solid #52AEF4;
     text-decoration: none;
     transition: all 0.075s ease-in;
     font-weight: bold;
@@ -109,66 +178,13 @@ body {
 }
 
 .button a:hover {
-    background-color: #f13356;
-    box-shadow: 0px 0px 10px #f13356;
+        background-color: #52AEF4;
+    box-shadow: 0px 0px 10px #52AEF4;
     color: #f5f5f5;
 }
 
-.errorinfo{
-    margin-top: 5%;
-    margin-left: 5%;
-    width: 90%;
-}
-
-.errorinfo h1{
-    font-size: 18px;
-    font-weight: 300;
-    letter-spacing: 1.2px;
-}
-
-.errorinfo p span{
-    color: rgb(177, 177, 177);
-}
-
-.reasonandphoto{
-    margin-left: 5%;
-    margin-top: 5%;
-    width: 90%;
-    display: flex;
-    justify-content: center;
-}
-
-.reasonandphoto h1{
-    font-size: 18px;
-    font-weight: 300;
-    letter-spacing: 1.2px;
-}
-
-.reasonandphoto p{
-    color: rgb(216, 216, 216);
-}
-
-.reasonandphoto img{
-    object-fit: cover;
-    height: 200px;
-    padding-left: 20px;
-}
-
-.solution{
-    margin-top: 5%;
-    margin-left: 5%;
-    width: 90%;
-    padding-bottom: 30px;
-}
-
-#sols{
-    font-size: 18px;
-    font-weight: 300;
-    letter-spacing: 1.2px;
-}
-
-.solution .sol{
-    margin-top: 30px;
+#situation{
+    font-size: 16px;
 }
 
 a{
@@ -181,24 +197,24 @@ a:hover{
     color: rgb(82, 82, 255);
 }
 
-
-.solution #solution-number{
-    display: inline;
-    font-size: 20px;
-    padding: 5px 10px;
-    border-radius: 50%;
-    border: 2px solid #f5f5f5;
+.buttondc{
+    display: flex;
+    justify-content: center;
 }
 
-.solution .sol p{
-    margin-top: 15px;
+.buttondc a{
+    width: 150px;
+    padding: 5px;
+    height: auto;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    background-color: #607ada;
+    box-shadow: 0px 0px 10px #607ada;
+    text-align: center;
+    transition: all 0.1s ease-in;
 }
 
-
-
-@media (max-width: 768px) {
-    .errordiv {
-        width: 100%; /* Make it full width on smaller screens */
-        margin: 0; /* Remove margin on smaller screens */
-    }
+.buttondc a:hover{
+    background-color:rgb(49, 84, 214);
 }
