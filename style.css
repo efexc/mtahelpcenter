@@ -9,12 +9,134 @@ body {
     color: rgb(207, 207, 207);
 }
 
-    .header{
+.footer{
     width: 100%;
-    height: 12.5vh;
+    height: 10vh;
+    margin-top: 30px;
     background-color: #1C1E28;
-    position: relative;
-    } 
+}
+
+.footer ul{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    align-items: center;
+    background-color:#1C1E28;
+}
+
+.footer ul li{
+    margin-left: 15px;
+}
+
+.ShareLink_facebook{
+    padding: 5px 10px;
+    background-color: rgb(56, 56, 255);
+    border-radius: 50%;
+}
+
+.ShareLink_twitter{
+    padding: 5px 7.5px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 50%;
+}
+
+.ShareLink_github{
+    padding: 5px 7.5px;
+    background-color: rgb(66, 66, 66);
+    border-radius: 50%;
+}
+
+.ShareLink_youtube{
+    padding: 5px 7.5px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+.ShareLink_linkedin{
+    padding: 5px 7.5px;
+    background-color: rgb(41, 41, 255);
+    border-radius: 50%;
+}
+
+.ShareLink_twitch{
+    padding: 5px 5px;
+    background-color: rgb(156, 8, 255);
+    border-radius: 50%;
+}
+
+.ShareLink_reddit{
+    padding: 5px 5px;
+    background-color: rgb(255, 141, 48);
+    border-radius: 50%;
+    margin-right: 10px; /* veya başka bir değer deneyin */
+}
+
+.normal {
+    margin-top: 5%;
+}
+
+.populars {
+    margin-top: 5%;
+}
+
+@media only screen and (max-width: 767px) {
+
+    .header{
+        width: 100%;
+        height: 12.5vh;
+        background-color: #1C1E28;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header h1{
+        font-size: 24px;
+    }
+
+    .header h1 span{
+        font-size: 18px;
+    }
+
+    .populars .errors{
+        display: block;
+    }
+
+    .populars .errors .errordivpopular{
+        width: 80%;
+        margin: 0;
+        margin-left: 10%;
+        margin-top: 30px;
+    }
+
+    .normal .errors{
+        display: block;
+    }
+
+    .normal .errors .errordiv{
+        width: 80%;
+        margin: 0;
+        margin-left: 10%;
+        margin-top: 30px;
+    }
+
+    .normal #title {
+        margin-left: 10%;
+        letter-spacing: 1.3px;
+        font-family: 'Kanit', sans-serif;
+        padding: 5px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .header{
+        width: 100%;
+        height: 12.5vh;
+        background-color: #1C1E28;
+        position: relative;
+    }  
 
     .header h1{
         position: absolute;
@@ -22,90 +144,19 @@ body {
         left: 20px;
         font-weight: bold;
         font-size: 40px;
-    }
+    } 
 
     .header h1 span{
         font-weight: 500;
         font-size: 25px;
-    }
+    } 
 
-    .footer{
-        width: 100%;
-        height: 10vh;
-        margin-top: 30px;
-        background-color: #1C1E28;
-    }
-    
-    .footer ul{
-        padding-top: 40px;
-        padding-bottom: 40px;
-        display: flex;
-        justify-content: center;
-        list-style: none;
-        align-items: center;
-        background-color:#1C1E28;
-    }
-    
-    .footer ul li{
-        margin-left: 15px;
-    }
-
-    .ShareLink_facebook{
-        padding: 5px 10px;
-        background-color: rgb(56, 56, 255);
-        border-radius: 50%;
-    }
-    
-    .ShareLink_twitter{
-        padding: 5px 7.5px;
-        background-color: rgb(0, 0, 0);
-        border-radius: 50%;
-    }
-    
-    .ShareLink_github{
-        padding: 5px 7.5px;
-        background-color: rgb(66, 66, 66);
-        border-radius: 50%;
-    }
-    
-    .ShareLink_youtube{
-        padding: 5px 7.5px;
-        background-color: red;
-        border-radius: 50%;
-    }
-    
-    .ShareLink_linkedin{
-        padding: 5px 7.5px;
-        background-color: rgb(41, 41, 255);
-        border-radius: 50%;
-    }
-    
-    .ShareLink_twitch{
-        padding: 5px 5px;
-        background-color: rgb(156, 8, 255);
-        border-radius: 50%;
-    }
-    
-    .ShareLink_reddit{
-        padding: 5px 5px;
-        background-color: rgb(255, 141, 48);
-        border-radius: 50%;
-        margin-right: 10px; /* veya başka bir değer deneyin */
-    }
-
-.normal {
-    margin-top: 5%;
-}
-
-.normal #title {
-    margin-left: 15%;
-    letter-spacing: 1.3px;
-    font-family: 'Kanit', sans-serif;
-    padding: 5px;
-}
-
-.populars {
-    margin-top: 5%;
+    .normal #title {
+        margin-left: 15%;
+        letter-spacing: 1.3px;
+        font-family: 'Kanit', sans-serif;
+        padding: 5px;
+    } 
 }
 
 .populars #title {
